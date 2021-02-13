@@ -380,3 +380,69 @@
 // {
 //     alert("password is incorrect")
 // }
+
+
+
+
+// >>>>>>>>>>>>>>>>>>>>>>>>.Q11<<<<<<<<<<<<<<<<<<<<<<<<< 
+// var naam="fahad"
+// var enter=prompt("enter name :")
+// if (enter===naam)
+// {
+//     alert("hi ! fahad")
+// }
+// else{
+//     alert("you are not fahad")
+// }
+
+
+
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.Q13.<<<<<<<<<<<<<<<<<<<<<<< 
+// var num1=+prompt("enter 1st no : ")
+// var num2=+prompt("enter 2nd no :")
+// if (num1>num2)
+// {
+//     alert(num1)
+// }
+// else if (num1<num2)
+// {
+//     alert(num2)
+// }
+// else if (num1===num2)
+// {
+//     alert(num1+ "=" +num2 )
+// }
+// else
+// {
+//     alert("num not found")
+// }
+
+
+
+// >>>>>>>>>>>>>>>>>>>>>>>.Q14.<<<<<<<<<<<<<<<<<<<<<<
+// var num1=+prompt("enter number :")
+// if (num1>0)
+// {
+//     alert("number is positive")
+// }
+// else if (num1<0)
+// {
+//     alert("number is negative")
+// }
+// else if (num1===0)
+// {
+//     alert("number is zero")
+// }
+// else{
+//     alert("num not found")
+// }
+
+
+//         Q16 ????????
+var naam="jibran"
+var num=12345
+var bool=true
+console.log(typeof(bool))
+
+

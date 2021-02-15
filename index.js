@@ -439,10 +439,79 @@
 // }
 
 
-//         Q16 ????????
-var naam="jibran"
-var num=12345
-var bool=true
-console.log(typeof(bool))
+// //>>>>>>>>>>>>>>>>>>>>>>>.Q6.<<<<<<<<<<<<<<<<<<<<<<<<<<
+// var naam="jibran"
+// var num=12345
+// var bool=true
+// console.log(typeof(bool))
 
 
+
+// var num=5
+// ++num
+// console.log(num)
+
+//>>>>>>>>>>>>>>>>>>loop table<<<<<<<<<<<<<<<<<<<<<<<<<<<
+// var enter=+prompt("enter number : ")
+
+// for(let i = 1; i <= 10; i++) {
+//         if (enter){
+//             console.log(enter+ "x" +i +" = " + enter*i)
+//         }
+//         else {
+//             console.log(5+ "x" + i + " = " + 5 * i)
+//         }
+// }
+
+
+
+
+// var names=[]
+// var enter1=prompt("enter name 1 : ")
+// var enter2=prompt("enter name 2 : ")
+// var enter3=prompt("enter name 3 : ")
+// var enter4=prompt("enter name 4 : ")
+// var enter5=prompt("enter name 5 : ")
+
+// names.push(enter1)
+// names.push(enter2)
+// names.push(enter3)
+// names.push(enter4)
+// names.push(enter5)
+
+// for(var i=0; i<names.length; i++ ){
+//     console.log(names[i])
+// }
+
+
+
+// =======================STAR WALA=================================
+// var star="*"
+// var final=""
+// for (var i=0 ; i<=20 ; i++){
+//     console.log(final=final+star)
+// }
+
+
+// >>>>>>>>>>>>>>>>>>>>>1-10 NUMBER ADDITION USING LOOP<<<<<<<<<<<<<<<<<<<<<<<<<
+// var num=0
+// var num1=0
+// for(var i=1; i<=10;i++){
+//   num=num+i
+// }
+// console.log(num)
+
+
+
+// >>>>>>>>>>>>>>>>>>>>>>>>.even odd<<<<<<<<<<<<<<<<<<<<<<
+// for (var x=0; x<=20; x++) {
+//     if (x === 0) {
+//             console.log(x +  " is even");
+//     }
+//     else if (x % 2 === 0) {
+//             console.log(x + " is even");   
+//     }
+//     else {
+//             console.log(x + " is odd");
+//     }
+// }

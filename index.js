@@ -515,3 +515,28 @@
 //             console.log(x + " is odd");
 //     }
 // }
+
+
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>even numbers<<<<<<<<<<<<<<<<<<<<<<<<
+// var num=20
+// for (var i=0; i<=num; i++) {
+//     if(i % 2 === 0){
+//         console.log(i)
+//     }
+// }
+
+
+
+// >>>>>>>>>>>>>>>>>array + (includes) function which read full array<<<<<<<<<<<<<<<<<<<<<<<<<
+// var items=["cake","apple pie","cookie","chips","pastties"]
+// var enter=prompt("what item do you want ? ")
+// var find= items.includes(enter)
+// if (find){
+//     alert("available")
+// }
+// else{
+//     alert("not available ")
+// }
+
+

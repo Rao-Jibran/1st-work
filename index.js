@@ -540,3 +540,74 @@
 // }
 
 
+
+// >>>>>>>>>>>>>>>>>>>>>>>ARRAYS<<<<<<<<<<<<<<<<<<<<<<<<<
+// >>>>>>>>>>>>>>>>>>>>>>>>>Q8<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+// var qua=["SSC", "HSC", "BCS", "BS", "BCOM", "MS","M. Phil.", "PhD"]
+// console.log(qua)
+
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Q11<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// var naam=["john","michale","tony"]
+// var marks=["320","230","480"]
+// var total=500
+// console.log(naam[0]+" "+(marks[0]/500)*100 +"%")
+// console.log(naam[1]+ " "+(marks[1]/500)*100+"%")
+// console.log(naam [2] +" "+ (marks[2]/500)*100 +"%")
+
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Q12<<<<<<<<<<<<<<<<<<<<<<<
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>part a<<<<<<<<<<<<<<<<<<<<
+// var colour=["blue","orange","green"]
+// var enter=prompt("enter colour : ")
+// colour.unshift(enter)
+// console.log(colour)
+
+
+// >>>>>>>>>>>>>>>>>>>>>>>part b<<<<<<<<<<<<<<<<<<<
+// var colour=["blue","orange","green"]
+// var enter=prompt("enter colour : ")
+// colour.push(enter)
+// console.log(colour)
+
+// >>>>>>>>>>>>>>>>>>>>>>part c<<<<<<<<<<<<<<<<<<<<<<
+// var colour=["blue","orange","green"]
+// var enter=prompt("enter colour : ")
+// var enter2=prompt("enter colour : ")
+// colour.unshift(enter)
+// colour.unshift(enter2)
+// console.log(colour)
+
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>part d<<<<<<<<<<<<<<<<<<
+// var colour=["blue","orange","green"]
+// colour.shift(enter)
+// console.log(colour)
+
+
+// >>>>>>>>>>>>>>>>>>>>>>>>part e<<<<<<<<<<<<<<<<<<<
+// var colour=["blue","orange","green"]
+// colour.pop(enter)
+// console.log(colour)
+
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>>part f<<<<<<<<<<<<<<<<<<
+// var colour=["blue","orange","green"]
+// var enter=prompt("enter colour : ")
+// var enter2=+prompt("enter position : ")
+// colour.splice(enter2,0,enter)
+// console.log(colour)
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>>part g<<<<<<<<<<<<<<<<<<
+// var colour=["blue","orange","green","pink","red","yellow"]
+// var enter=+prompt("remove number from : ")
+// var enter2=+prompt("remove number to : ")
+// colour.splice(enter,enter2)
+// console.log(colour)
+
+
+

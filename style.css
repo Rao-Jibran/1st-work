@@ -1,0 +1,30 @@
+#main{
+    background-color:gray;
+}
+.row{
+    padding-top: 25px;
+}
+.inp{
+    height: 20px;
+    width: 200px;
+    border-radius: 7px;
+    
+}
+.btn{
+    background-color: gold;
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 50px;
+}
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: darkslategrey;
+    color: white;
+}
+.element{
+    font-size: 18px;
+}

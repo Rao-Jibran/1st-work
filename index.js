@@ -610,4 +610,9 @@
 // console.log(colour)
 
 
-
+// >>>>>>>>>>>>>>>>>>>>>>>game in process<<<<<<<<<<<<<<<<<<<<<<<<<
+// var ran=["ali","ahmed","zara","faizan"]
+// var enter=prompt("enter your name : ")
+// var pick=Math.round(Math.random() * 3)
+// var final=ran[pick]
+// console.log(enter + " vs " + final)

@@ -616,3 +616,49 @@
 // var pick=Math.round(Math.random() * 3)
 // var final=ran[pick]
 // console.log(enter + " vs " + final)
+
+
+// >>>>>>>>>>>>>>>>>>>>>>>>OBJECT<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+// var info={ }
+// info.name='JIBRAN'
+// info.age='19'
+// info.adress='b-7'
+
+// delete info.age
+
+// console.log(info)
+
+//>>>>>>>>>>>>>>>>>>>>>=====GAME=====<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+// var fighter=["ken","leo","riva","papa ki pari"]
+// var user=prompt("enter yor player : ")
+// var select=fighter.includes(user)
+
+// var random=Math.random()*3
+// var round=Math.round(random)
+
+// if(select){
+//     alert(user+ " vs " +fighter[round])
+// }
+// else{
+//     alert('invaild')
+// }
+// var cpu={
+//     name:fighter[round],
+//     health1:100
+// }
+// var user={
+//     name:user,
+//     health2:100
+// }
+//  var moves={
+//      punch:20,
+//      kick:30,
+//      special:50
+//  }
+
+//  var move1=prompt("enter move : ")
+
+//  if(move1==="punch"){
+//      cpu.health1=cpu.health1-moves.punch
+//  }
+//  console.log(cpu.health1)

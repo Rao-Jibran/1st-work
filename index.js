@@ -629,36 +629,68 @@
 // console.log(info)
 
 //>>>>>>>>>>>>>>>>>>>>>=====GAME=====<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-// var fighter=["ken","leo","riva","papa ki pari"]
-// var user=prompt("enter yor player : ")
-// var select=fighter.includes(user)
+var fighter=["ken","leo","riva","papa ki pari"]
+var user=prompt("enter yor player : ")
+var select=fighter.includes(user)
 
-// var random=Math.random()*3
-// var round=Math.round(random)
+var random=Math.random()*3
+var round=Math.round(random)
 
-// if(select){
-//     alert(user+ " vs " +fighter[round])
-// }
-// else{
-//     alert('invaild')
-// }
-// var cpu={
-//     name:fighter[round],
-//     health1:100
-// }
-// var user={
-//     name:user,
-//     health2:100
-// }
-//  var moves={
-//      punch:20,
-//      kick:30,
-//      special:50
-//  }
+if(select){
+    alert(user+ " vs " +fighter[round])
+}
+else{
+    alert('invaild')
+}
+var cpu={
+    name:fighter[round],
+    health1:100
+}
+var user2={
+    name:user2,
+    health2:100
+}
+ var moves={
+     punch:20,
+     kick:30,
+     special:50
+ }
 
-//  var move1=prompt("enter move : ")
+ while(user2.health2>0 && cpu.health1>0){
+ var move1=prompt("Enter move : ")
+ if(move1==="punch"){
+    cpu.health1= cpu.health1-moves.punch
+    console.log("health of cpu "+cpu.health1)
+    console.log("health of user 2 "+user2.health2)
+    }
 
-//  if(move1==="punch"){
-//      cpu.health1=cpu.health1-moves.punch
-//  }
-//  console.log(cpu.health1)
+    else if(move1==="kick"){
+        cpu.health1= cpu.health1-moves.kick
+        console.log("health of cpu "+cpu.health1)
+        console.log("health of user 2 "+user2.health2)
+        }
+
+       else if(move1==="special"){
+            cpu.health1= cpu.health1-moves.special
+            console.log("health of cpu "+cpu.health1)
+            console.log("health of user 2 "+user2.health2)
+            }
+
+var random=Math.random()*2
+var round=Math.round(random)
+if(round===0){
+user2.health2=user2.health2-moves.punch
+}
+else if(round===1){
+    user2.health2=user2.health2-moves.kick
+    }
+   else if(round===3){
+    user2.health2=user2.health2-moves.special
+        }
+}   
+if(user2.health2<=0){
+    alert("USER 2 WINS !!!")
+}
+else if (cpu.health1<=0){
+    alert( fighter[round]+ " WINS !!!")
+}
